@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>TwiFox</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <script src="popup.js"></script>
+</head>
+<body class="popup-body">
+<div class="content">
+    <img src="img/icon64.png" alt="app-icon" class="app-icon">
+        <div class="dropdown-container dropdown-container--seznam">
+            <label for="select-list-dropdown" class="dropdown-label">Vyberte seznam:</label>
+            <select id="select-list-dropdown" name="dropdown1" class="dropdown">
+                <option value="option1">Seznam 1</option>
+                <option value="option2">Seznam 2</option>
+                <option value="option3">Seznam 2</option>
+            </select>
+        </div>
+
+        <div class="dropdown-container dropdown-container--akce">
+            <label for="select-action-dropdown" class="dropdown-label">Akce:</label>
+            <select id="select-action-dropdown" name="dropdown2" class="dropdown">
+                <option value="optionA">Bez akce</option>
+                <option value="optionA">Skrýt</option>
+                <option value="optionB">Označit</option>
+            </select>
+        </div>
+
+        <div class="button-container">
+            <a href="#" class="btn btn-light" id="set-action-button">Nastavit</a>
+        </div>
+</div>
+</body>
+</html>

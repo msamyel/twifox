@@ -1,0 +1,27 @@
+{
+
+  "manifest_version": 3,
+  "name": "TwiFox",
+  "version": "1.0",
+
+  "description": "",
+
+  "icons": {
+    "48": "images/icon48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.mozilla.org/*"],
+      "js": ["js/search.js"]
+    }
+  ],
+
+  "action": {
+    "default_icon": {             
+      "48": "images/icon48.png"   
+    },
+    "default_title": "Nastavení",   
+    "default_popup": "popup/popup.html"  
+  }
+}

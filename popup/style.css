@@ -1,0 +1,32 @@
+.popup-body {
+    background-color: #dbd8d3;
+    width: 150px;
+}
+
+.content {
+    text-align: center;
+    font-family: "Trebuchet MS", sans-serif;
+    font-variant-caps: small-caps;
+}
+
+.app-icon {
+    margin-bottom: 10px;
+}
+
+.dropdown-container {
+    margin-bottom: 15px;
+}
+
+.dropdown-label {
+    width: 100%;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.dropdown {
+    font-size: 14px;
+}
+
+.button-container {
+    margin-bottom: 15px;
+}
