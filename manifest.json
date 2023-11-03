@@ -17,6 +17,10 @@
     }
   ],
 
+  "permissions": [
+    "storage"
+  ],
+
   "action": {
     "default_icon": {             
       "48": "images/icon48.png"   
